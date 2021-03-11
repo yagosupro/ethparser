@@ -21,6 +21,7 @@ import pro.belbix.ethparser.properties.SubscriptionsProperties;
 @EnableScheduling
 public class AppConfig {
 
+
     @Configuration
     @EnableWebSocketMessageBroker
     public static class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
